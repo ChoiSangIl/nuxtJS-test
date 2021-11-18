@@ -35,7 +35,7 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify'
+    //'@nuxtjs/vuetify'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -48,6 +48,7 @@ export default {
   axios: {},
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
+  /*
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
@@ -65,6 +66,7 @@ export default {
       }
     }
   },
+  */
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
